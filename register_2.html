@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.smartaddons.com/templates/html/market/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2021 09:20:27 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+
+    <!-- Basic page needs
+	============================================ -->
+    <title>Registeration Page</title>
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content="boostrap, responsive, html5, css3, jquery, theme, multicolor, parallax, retina, business" />
+    <meta name="author" content="Magentech">
+    <meta name="robots" content="index, follow" />
+
+    <!-- Mobile specific metas
+	============================================ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Favicon
+	============================================ -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+
+    <!-- Google web fonts
+	============================================ -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- Libs CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="css/themecss/lib.css" rel="stylesheet">
+    <link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+
+    <!-- Theme CSS
+	============================================ -->
+    <link href="css/themecss/so_megamenu.css" rel="stylesheet">
+    <link href="css/themecss/so-categories.css" rel="stylesheet">
+    <link href="css/themecss/so-listing-tabs.css" rel="stylesheet">
+    <link href="css/footer4.css" rel="stylesheet">
+    <link href="css/header7.css" rel="stylesheet">
+    <link id="color_scheme" href="css/theme.css" rel="stylesheet">
+
+    <link href="css/responsive.css" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body class="res layout-subpage" style="background-color:#A5DCE4;">
+    <div id="wrapper" class="wrapper-full ">
+        <!-- Header Container  -->
+        <header id="header" class="variantleft " style="height:70px;">
+            <div class="type_7">
+                <!-- Header center -->
+                <div class="header-center" style="padding:10px 0 0;">
+                    <div class="container">
+                        <div class="row  ">
+                            <!-- Logo -->
+                            <div class="navbar-logo col-md-5 col-sm-12 col-xs-12">
+                                <a href="index.html"><img src="image/film_logo.png" title="Your Store" alt="Your Store"
+                                        height="65px"></a>
+                            </div>
+                            <!-- //end Logo -->
+                        </div>
+
+                    </div>
+                </div>
+                <!-- //Header center -->
+            </div>
+        </header>
+        <!-- //Header Container  -->
+        <!-- Modal 1 : Register New User-->
+        <div id="registeration_option">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="border-bottom: none;">
+                        <div></div>
+                        <div>
+                            <h5 class="modal-title" id="exampleModalLabel">Register to</h5>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <!-- <span aria-hidden="true">&times;</span> -->
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="register-form">
+                            <form action="#" method="post">
+                                <div class="fields-grid">
+                                    <!-- <p class="welcome-msg text-center">Register to</p> -->
+                                    <div class="text-center logo_text"> <span style="color:#000;">The <span
+                                                style="color:red">Film</span> World</span>
+                                    </div>
+                                    <div class=""
+                                        style="display:flex; justify-content:center; flex-direction: column; width: 100%;row-gap: 30px; margin: 30px auto 15px;">
+                                        <button type="button" class="btn btn-primary"
+                                            style="border-radius: 5px; overflow: hidden; padding:13px; word-spacing: 0.2em;">Register
+                                            as a <span style="text-transform: uppercase;"
+                                                onclick="Registeration()"> Customer</span></button>
+                                        <button type="button" class="btn btn-danger"
+                                            style="border-radius: 5px; overflow: hidden; padding:13px; word-spacing: 0.2em;">Register
+                                            as a <span style="text-transform: uppercase;"
+                                                onclick="Registeration()"> Service
+                                                Provider</span> </button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //End Modal 1-->
+        <div id="registerationForm" style="display: none;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="border-bottom: none;">
+                        <div></div>
+                        <div>
+                            <h5 class="modal-title" id="exampleModalLabel">Register to</h5>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <!-- <span aria-hidden="true">&times;</span> -->
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="register-form">
+                            <form action="#" method="post">
+                                <div class="fields-grid">
+                                    <!-- <p class="welcome-msg text-center">Register to</p> -->
+                                    <div class="text-center logo_text"> <span style="color:#000;">The <span
+                                                style="color:red">Film</span> World</span>
+                                    </div>
+
+                                    <div class="styled-input">
+                                        <input type="text" placeholder="Full Name" name="Full Name" required="">
+                                    </div>
+                                    <div class="styled-input">
+                                        <input type="email" placeholder="Email" name="Email" required="">
+                                    </div>
+                                    <div class="styled-input">
+                                        <input type="number" placeholder="Mobile Number" name="Mobile Number"
+                                            required="">
+                                    </div>
+                                    <div class="styled-input">
+                                        <select name="" id="">
+                                            <option value="">--- Select City ---</option>
+                                            <option value="">City 1</option>
+                                            <option value="">City 2</option>
+                                            <option value="">City 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="styled-input">
+                                        <select name="" id="">
+                                            <option value="">--- Select Plan ---</option>
+                                            <option value="">Silver Plan at $10</option>
+                                            <option value="">Gold Plan at $10</option>
+                                            <option value="">Diamond Plan at $10</option>
+                                            <option value="">Platinum Plan at $10</option>
+                                        </select>
+                                    </div>
+                                    <div class="styled-input">
+                                        <input type="password" placeholder="Password" name="password" required="">
+                                    </div>
+                                    <div class="styled-input">
+                                        <input type="password" placeholder="Confirm Password" name="confirm password"
+                                            required="">
+                                    </div>
+                                    <div class="register-btn text-center">
+                                        <button type="submit" class="btn btn-success">Register</button>
+                                        <p>Already have an account? <a href="login.html" class="login log"
+                                                style="color: #D60103;">Login</a></p>
+                                        <div class="social_registerations">
+                                            <div class="facebook-register"><span class="fa fa-facebook"></span>Facebook
+                                            </div>
+                                            <div class="google-register"><span
+                                                    class="fab fa-google-plus-g"></span>Google</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        function Registeration() {
+            var y = document.getElementById('registeration_option');
+
+            var x = document.getElementById('registerationForm');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+                y.style.display = 'none';
+            } else {
+                x.style.display = 'none';
+                y.style.display = 'block';
+
+            }
+        }
+        
+    </script>
+
+
+    <script src="https://kit.fontawesome.com/7bc2a2c594.js" crossorigin="anonymous"></script>
+
+    <!-- Include Libs & Plugins
+	============================================ -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/themejs/libs.js"></script>
+    <script type="text/javascript" src="js/unveil/jquery.unveil.js"></script>
+    <script type="text/javascript" src="js/countdown/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js"></script>
+    <script type="text/javascript" src="js/datetimepicker/moment.js"></script>
+    <script type="text/javascript" src="js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+
+
+    <!-- Theme files
+	============================================ -->
+
+
+    <script type="text/javascript" src="js/themejs/so_megamenu.js"></script>
+    <script type="text/javascript" src="js/themejs/addtocart.js"></script>
+    <script type="text/javascript" src="js/themejs/application.js"></script>
+
+</body>
+
+<!-- Mirrored from demo.smartaddons.com/templates/html/market/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2021 09:20:45 GMT -->
+
+</html>
